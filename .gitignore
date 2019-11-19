@@ -4,6 +4,9 @@
 # Log file
 *.log
 
+#PDFs, have to be uploaded directly to github to appear
+*.pdf
+
 # BlueJ files
 *.ctxt
 
