@@ -29,8 +29,8 @@
           <li><a href="index.html">Home</a></li>
           <li class="selected"><a href="research.html">Research</a></li>
           <li><a href="presentations.html">Papers and Presentations</a></li>
-          <li><a href="coursework.html">Coursework</a></li>
-          <li><a href="files/CV_hhanes.pdf">My CV</a></li>
+          <!-- <li><a href="coursework.html">Coursework</a></li> -->
+           <li><a href="files/Resume_hhanes.pdf">My Resume</a></li>
         </ul>
       </div>
     </div>
@@ -38,7 +38,7 @@
       <div class="sidebar">
         <!-- insert your sidebar items here -->
         <h3>Contact Me</h3>
-        <a href="mailto:hhanes@tulane.edu"> <i class="fas
+        <a href="mailto:harleyhanes97@gmail.com"> <i class="fas
           fa-envelope-square fa-3x" style="font-size:40px;color:gray"> </i></a>
         <a href="https://www.linkedin.com/in/harley-hanes/"> <i
           class="fab fa-linkedin fa-3x" style="font-size:40px;color:blue"> </i></a>
@@ -56,15 +56,20 @@
       <div id="content">
         <!-- insert the page content here -->
         <h1>My Research</h1>
-        <p> My research primarily focuses on analysis of computational models of
-        disease transmission to assist public health professionals in crafting
-        interventions to reduce human risk of disease. This has been the focus
-        of my two primary research projects on Chagas Disease transmission in Southern
-        Louisiana and on Lyme Disease transmission in the northeast United States.
-        In addition to these projects I have also worked on using machine learning
-        algorithms to predict optimal generator settings in power grids.</p>
+        <p> My research primarily focuses on development of reduced-order models (ROMs) for computational physics simulations and their use in sensitivity analysis and uncertainty quantification. In my dissertation work I have developed methodologies for proper-orthogonal based decomposition (POD) ROMs to improve their reliability, sensitivity accuracy, and allow for sensitivity analysis of boundary conditions. I have applied this work to models of both chemical reactors and incompressible Navier-Stokes flows. In my undergraduate and master's work I also developed ecological models of disease transmission for Lyme and Chagas disease. In addition to this work I also have extensive experience in model verification and randomized linear algebra methods. </p>
 
 
+        <h2> Improved ROM Reliability for Chemical Reactors</h2>
+        <p><b>Title:</b> <i>Convergence Degradation and Hyper-Reduction of Nonlinear Sources in POD-ROMs of Advection-Dominated Recirculating Chemical Reactors (In Progress)</i></p>
+        <p><b>Abstract:</b> Mathematical models of chemical reactor are critical to a wide varitiey of industries including biofuels, pharmaceuticals, and waste remediation. Models of these systems are typically advection dominated with nonlinear source terms to model chemcial reactions and often include recirculation of heat or reactants. Reduced-order models (ROMs) are a common appraoch to quickly model these reactors for control and uncertainty quantification. However, we document previously unidentified limitations in convergence of projection-based ROMs for these models. We also develop a hyper-reduction approach for nonlinear source terms that improves reliability of projection-based ROMs without increasing computational cost.</p>
+        <p><b>Collaborating Authors:</b> Ralph C. Smith (North Carolina State University), Hangjie Ji (North Carolina State University) </p>
+
+        <h2> Boundary Penalties for Sensitivity Analysis (In Review)</h2>
+        <p><b>Title:</b> <i>Efficient Quantification of Fluid Flow Parameter Sensitivity
+          Using Reduced-Order Modeling</i> [<a href="files/AIAApaperSubmission.pdf">Paper Submission</a>]</p>
+        <p><b>Abstract:</b> Sensitivity analysis for computational fluid dynamics (CFD) simulations is often required for many applications but complicated by the computational cost of simulation codes. For many applications, the computational cost of quantifying the simulation's sensitivity to physical parameters (e.g., body surface roughness) and hyperparameters (e.g., subiteration convergence criterion) can be intractable for even a single simulation. Reduced-order modeling significantly reduces the computational cost of simulating fluid flows by solving on a reduced solution space informed by prior simulation data. In this work, fluid reduced-order models using boundary penalties are developed and utilized to quantify flow sensitivity to physical parameters, boundary conditions, and model hyperparameters. The proposed reduced-order modeling approach allows sensitivity analysis and uncertainty quantification of boundary conditions and enables more informed CFD frameworks.</p>
+        <p><b>Collaborating Authors:</b> Michael W. Lee (NASA Langley), Ralph C. Smith (North Carolina State University) </p>
+        <p><b>Funding:</b> This work was funded under NASA's AEROFUSION-MLUQ grant (Contract No. 80LARC21CA003) </p>
         <h2> Chagas Disease (Master's Thesis)</h2>
         <p> <b>Title: </b><i>Sylvatic and Domestic T. cruzi Transmission Cycles and Chagas Disease
            Risk in New Orleans, Louisiana </i> </p>
@@ -83,7 +88,7 @@
             (Tropical Medicine, Tulane), Dr. Eric Dumonteil (Tropical Medicine,
             Tulane), Dr. Zhuolin Qu (Math, Tulane)
           </p>
-        <h2> Lyme Disease (In Review)</h2>
+        <h2> Lyme Disease (Published)</h2>
         <p><b>Title:</b> <i>Cost Benefit Analysis of Vaccination in Tick-Mouse
         Transmission of Lyme Disease</i> [<a href="files/Lyme2019paper.pdf">PDF</a>]</p>
         <p><b>Abstract:</b> Lyme disease is one of the most prevalent and fastest
@@ -111,7 +116,7 @@
              mouse-tick transmission of <i>B. burgdorferi </i>while saving money.</p>
         <p><b>Collaborating Authors:</b> Daniel Carrera-Pineyro, Adam Litzler, Andrea McCormack,
           Josean Velazquez-Molina, Anuj Mubayi, Karen Rıos-Soto, Christopher Kribs </p>
-        <h2> Power Grids</h2>
+        <!-- <h2> Power Grids</h2>
         <p><b>Title:</b><i> A Machine Learning Approach for Solving AC Optimal Power Flows</i> [<a href="files/OPF2019paper.pdf">PDF</a>]</p>
         <p><b>Summary:</b> My research group partnered with Pacific Northwest National
            Labs (PNNL) to use machine learning algorithms to solve for optimal
@@ -122,11 +127,8 @@
            perturbing IEEE's predefined 30-bus and 300-bus power flow system and
            trained neural networks and decision tree regression algorithms (XGBoost).
            We were able to train accurate and quick algorithms for the 30-bus system but were unable to train either algorithm on 300-bus systems.</p>
-         <p><b>Collaborating Authors:</b> Deepjyoti Ghosh, Derek Hanely, Kapila Kottegoda, Jenna McDanold, Phong Nguyen, Yuqi Su</p>
+         <p><b>Collaborating Authors:</b> Deepjyoti Ghosh, Derek Hanely, Kapila Kottegoda, Jenna McDanold, Phong Nguyen, Yuqi Su</p> -->
       </div>
-    </div>
-    <div id="footer">
-      Copyright &copy; textured_blue | <a href="http://www.html5webtemplates.co.uk">Free CSS Templates</a>
     </div>
   </div>
 </body>
